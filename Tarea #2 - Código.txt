@@ -1,0 +1,10 @@
+/*ALUMNO: Benítez Rivera José Rodrigo
+*SECUENCIA: 6NM61
+*ASIGNATURA: Programación Móvil
+*FECHA DE ENTREGA: 17/sep/2023*/
+const val PI = 3.1416
+fun main() {
+	val decimal = 1.2345
+	val resultado = 2*decimal*PI
+    println("El perímetro del círculo es $resultado")
+}
