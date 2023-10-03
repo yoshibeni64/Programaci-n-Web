@@ -1,0 +1,12 @@
+/*ALUMNO: Benítez Rivera José Rodrigo
+*SECUENCIA: 6NM61
+*ASIGNATURA: Programación Móvil
+*FECHA DE ENTREGA: 24/sep/2023*/
+fun main() {
+    var x1 = 4f;
+    var x2 = -3f;
+    var y1 = 3f;
+    var y2 = -2f;
+    var m = (y2-y1)/(x2-x1);
+    println("La pendiente de la recta es igual a $m");
+}
