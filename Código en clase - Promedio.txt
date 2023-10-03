@@ -1,0 +1,18 @@
+/*ALUMNO: Benítez Rivera José Rodrigo
+*SECUENCIA: 6NM61
+*ASIGNATURA: Programación Móvil
+*FECHA DE ENTREGA: 03/oct/2023*/
+
+
+fun main() {  
+    
+    val cal1 = 10;
+	val cal2 = 8;
+	val cal3 = 7;
+    
+    val promedio = (cal1 + cal2 + cal3) / 3.0;
+    
+    println("Las calificaciones obtenidas fueron $cal1, $cal2, $cal3 respectivamente");
+    println("El promedio es igual a $promedio");
+    
+}

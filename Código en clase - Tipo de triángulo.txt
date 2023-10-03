@@ -1,0 +1,31 @@
+/*ALUMNO: Benítez Rivera José Rodrigo
+*SECUENCIA: 6NM61
+*ASIGNATURA: Programación Móvil
+*FECHA DE ENTREGA: 03/oct/2023*/
+const val a = 9;
+const val b = 8;
+const val c = 7;
+
+fun main() {
+    
+    println("a = $a");
+    println("b = $b");
+    println("c = $c");
+    
+    if (a == b && a == c) {
+        println("El triángulo es equilátero.")
+    }
+    
+    else if (a == b) {
+     	println("El triángulo es isósceles.")      
+    }
+    
+    else if (a == c || b == c) {
+     	println("El triángulo es isósceles.")      
+    }
+    
+    else {
+        println("El triángulo es escaleno.")
+    }
+    
+}
